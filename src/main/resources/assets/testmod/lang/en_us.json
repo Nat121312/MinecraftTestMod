@@ -1,0 +1,11 @@
+{
+  "item.testmod.ruby": "Ruby",
+  "item.testmod.unpolished_ruby": "Unpolished_Ruby",
+
+  "block.testmod.ruby_block": "Block of Ruby",
+  "block.testmod.ruby_ore": "Ruby Ore",
+  "block.testmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+
+  "itemGroup.test_tab": "Ruby Tab",
+  "itemGroup.test_tab2": "Other Tab 2"
+}
