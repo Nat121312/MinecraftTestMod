@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "testmod:unpolished_ruby"
+  },
+  "result": "testmod:ruby"
+}
