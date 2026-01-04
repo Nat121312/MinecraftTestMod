@@ -1,38 +1,23 @@
 package net.nat.testmod.custom;
 
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.Tiers;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraftforge.common.ForgeTier;
+import net.minecraftforge.common.TierSortingRegistry;
+import net.nat.testmod.TestMod;
+import net.nat.testmod.item.ModItem;
+
+import java.util.List;
 
 public class ModMaterials {
-    public static final Tier RUBY = new Tier() {
-        @Override
-        public int getUses() {
-            return 2500;
-        }
+    public static Tier RUBY;
 
-        @Override
-        public float getSpeed() {
-            return 0;
-        }
-
-        @Override
-        public float getAttackDamageBonus() {
-            return 2;
-        }
-
-        @Override
-        public int getLevel() {
-            return 2;
-        }
-
-        @Override
-        public int getEnchantmentValue() {
-            return 40;
-        }
-
-        @Override
-        public Ingredient getRepairIngredient() {
-            return null;
-        }
-    };
+    static {
+        RUBY = TierSortingRegistry.registerTier(
+                new ForgeTier(2, 1000,9f,2,30,
+                        null, ()-> Ingredient.of(ModItem.RUBY.get())),
+                new ResourceLocation(TestMod.MODID, "ruby"), List.of(Tiers.IRON), List.of());
+    }
 }

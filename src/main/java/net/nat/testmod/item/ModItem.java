@@ -42,7 +42,7 @@ public class ModItem {
                     new Item.Properties().tab(ModCreativeModeTab.Test_Tab2)
                             .fireResistant()));
     public static final RegistryObject<Item> RUBY_SHOVEL = ITEMS.register("ruby_shovel",
-            () -> new ModCustomShovel(ModMaterials.RUBY, 0, -1f,
+            () -> new ModCustomShovel(ModMaterials.RUBY, 0, 0f,
                     new Item.Properties().tab(ModCreativeModeTab.Test_Tab2)
                             .fireResistant()));
     public static final RegistryObject<Item> RUBY_HOE = ITEMS.register("ruby_hoe",
