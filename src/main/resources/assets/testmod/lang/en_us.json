@@ -1,6 +1,12 @@
 {
   "item.testmod.ruby": "Ruby",
   "item.testmod.unpolished_ruby": "Unpolished_Ruby",
+  "item.testmod.ruby_sword": "Ruby Sword",
+  "item.testmod.ruby_axe": "Ruby Axe",
+  "item.testmod.ruby_pickaxe": "Ruby Pickaxe",
+  "item.testmod.ruby_shovel": "Ruby Shovel",
+  "item.testmod.ruby_hoe": "Ruby Hoe",
+  "item.testmod.test_item": "False Ruby Sword",
 
   "block.testmod.ruby_block": "Block of Ruby",
   "block.testmod.ruby_ore": "Ruby Ore",
